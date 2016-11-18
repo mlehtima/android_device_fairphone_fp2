@@ -94,6 +94,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.camera.shutter.disable=1
+
 PRODUCT_COPY_FILES += \
     device/fairphone_devices/FP2/whitelist_appops.xml:system/etc/whitelist_appops.xml
 
